@@ -103,7 +103,7 @@ This project aims to explore and analyze transactional data from a fictional cof
 ## 🌱 About Me
 
 I'm a self-taught data enthusiast and economics student passionate about using data to solve real-world problems.  
-This project was part of my learning journey in Python and machine learning, and you can find more of my work [here](https://github.com/uyenp30/Data-Projects) 💻🌻
+This project was part of my learning journey in Data Analytics, and you can find more of my work [here](https://github.com/uyenp30/Data-Projects) 💻🌻
 
 ---
 
