@@ -16,7 +16,22 @@ Big thanks as well to [Maven Analytics](https://www.mavenanalytics.io/) for shar
 
 ## 📌 Project Objectives
 
-- ...
+This project aims to explore and analyze transactional data from a fictional coffee shop business to uncover patterns in sales performance, customer preferences, and operational efficiency. Specifically, it focuses on answering the following key business questions:
+
+- ☕️ Which day of the week generates the highest total revenue?
+→ Identifying peak business days helps optimize staffing, promotions, and inventory planning.
+
+- 🛍️ What are the top five best-selling products based on quantity sold?
+→ Understanding customer favorites supports strategic decisions on menu offerings and stock management.
+
+- 🧾 Which store location performs best in terms of total revenue, and what product categories dominate each location?
+→ Comparing store performance and local customer preferences can guide region-specific strategies.
+
+- ⏰ What are the busiest hours of the day across all store locations?
+→ Pinpointing peak sales hours enables better workforce scheduling and targeted marketing.
+
+- 💸 What is the average customer bill across different product categories?
+→ Revealing customers' spending behavior and potential opportunities to increase order value.
 
 ---
 
@@ -34,16 +49,34 @@ Big thanks as well to [Maven Analytics](https://www.mavenanalytics.io/) for shar
 ## 🛠️ Tools & Libraries
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-3E8EDE?style=for-the-badge&logo=microsoft&logoColor=white)  
+![PivotTables](https://img.shields.io/badge/Pivot%20Tables-F89B29?style=for-the-badge&logo=microsoft-excel&logoColor=white)  
 
 ---
 
 ## 📈 Workflow Summary
 
-### 1️⃣ Data Preparation
-- ...
+### 1️⃣ Data Import & Inspection
+- Loaded raw transactional data into Excel using Power Query
+- Conducted initial review to understand field types, missing values, and inconsistencies
 
-### 2️⃣ Exploratory Data Analysis (EDA)
-- ...
+### 2️⃣ Data Cleaning & Transformation
+- Cleaned and standardized data using Power Query (e.g., removed null rows, changed data types, renamed columns)
+- Extracted additional time-based features including Day of Week, Month, and Hour from transaction timestamps
+- Calculated new columns such as `Total Bill` (`Unit Price` × `Quantity`) for deeper revenue analysis
+
+### 3️⃣ Data Aggregation & Exploration
+- Built dynamic PivotTables to analyze sales performance across key dimensions:
+    - Day of the week
+    - Product category and product type
+    - Store location
+    - Hour of transaction
+- Applied calculated fields and filters to uncover trends and outliers
+
+### 4️⃣ Data Visualization & Dashboarding
+- Created interactive charts (bar, column, stacked, line) to visualize sales patterns
+- Used slicers and conditional formatting to build a clean, interactive dashboard
+- Visualized KPIs such as top products, busiest hours, and revenue by store location
 
 ---
 
