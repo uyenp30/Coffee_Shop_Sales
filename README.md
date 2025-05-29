@@ -4,6 +4,16 @@ This Excel project dives into coffee shop transaction data to explore sales tren
 
 ---
 
+## 🙏 Acknowledgment
+
+This project was inspired by [WsCube Tech’s YouTube tutorial](https://www.youtube.com/watch?v=Rthh_bK5xUs), which introduced valuable techniques for building Excel dashboards using coffee shop sales data.
+
+While I took my own approach and made custom adjustments, the video helped spark ideas for layout, interactivity, and business-focused insights.
+
+Big thanks as well to [Maven Analytics](https://www.mavenanalytics.io/) for sharing the dataset and supporting learners like me 🌱
+
+---
+
 ## 📌 Project Objectives
 
 - ...
