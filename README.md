@@ -33,6 +33,8 @@ This project aims to explore and analyze transactional data from a fictional cof
 - 💸 What is the average customer bill across different product categories?
 → Revealing customers' spending behavior and potential opportunities to increase order value.
 
+- 🤑 Which product generates the highest revenue per transaction on average?
+→ This tells you which products are the most profitable per sale — not just by volume, but by customer spend per purchase.
 ---
 
 ## 📁 Dataset
@@ -63,7 +65,7 @@ This project aims to explore and analyze transactional data from a fictional cof
 ### 2️⃣ Data Cleaning & Transformation
 - Cleaned and standardized data using Power Query (e.g., removed null rows, changed data types, renamed columns)
 - Extracted additional time-based features including Day of Week, Month, and Hour from transaction timestamps
-- Calculated new columns such as `Total Bill` (`Unit Price` × `Quantity`) for deeper revenue analysis
+- Calculated new columns such as `total_bill` (`unit_price` × `transaction_qty`) for deeper revenue analysis
 
 ### 3️⃣ Data Aggregation & Exploration
 - Built dynamic PivotTables to analyze sales performance across key dimensions:
