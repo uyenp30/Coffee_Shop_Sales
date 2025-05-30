@@ -86,13 +86,51 @@ This project aims to explore and analyze transactional data from a fictional cof
 
 ![Dashboard Preview](./Coffee%20Shop%20Sales%20Dashboard.png)
 
-...
+☕️ Which day of the week generates the highest total revenue?
+- `Monday` and `Friday` are the top-performing days, each with revenue above $101,000
+- `Saturday` consistently has the lowest revenue, dipping below $97,000
+
+👉 Customers are more active during weekdays, especially at the start and end of the workweek
+
+🛍️ What are the top five best-selling products based on quantity sold?
+- `Brewed Chai Tea`, `Gourmet Brewed Coffee`, and `Barista Espresso` are the top 3 ordered categories, each exceeding 25,000 orders
+- `Hot chocolate` and `Brewed Black tea` trail behind
+
+👉 Warm caffeinated drinks dominate customer preference.
+
+🧾 Which store location performs best in terms of total revenue, and what product categories dominate each location?
+- All three locations show strong demand for `Coffee` and `Tea`
+
+👉 Consistent product trends across locations
+
+⏰ What are the busiest hours of the day across all store locations?
+- The busiest hours are 8 AM to 10 AM, peaking around 9 AM, with over 25,000 orders
+- Sales sharply drop after 11 AM and remain stable into the afternoon
+
+👉 This aligns with the morning coffee rush—strong breakfast/commuter behavior
+
+💸 How does revenue change across months?
+- May and June show the highest revenue and order counts, indicating a growing customer base
+- Revenue consistently climbs month-over-month
+
+👉 Business is scaling well—potential seasonal or promotional impact
+
+📊 Bonus Insight:
+- The Revenue Distribution Pie Chart shows that `Coffee` alone drives nearly 40% of revenue
+
+👉 This is the "ace" category
 
 ---
 
 ## 💼 Business Impact and Suggestions
 
-...
+- **Launch morning promotions (7–10 AM)** to target high-traffic hours with bundle deals, loyalty rewards, or mobile order incentives.
+
+- **Invest equally** in all locations, as the performances over locations are consistent
+
+- Focus on **high-revenue products** such as `Gourmet Coffee`, `Barista Espresso`, and `Chai Tea`, considering **up-selling** or **seasonal variants**.
+
+- Reevaluate **staffing and resource distribution** to accommodate high-traffic hours 
 
 ---
 
