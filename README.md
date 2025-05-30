@@ -84,6 +84,7 @@ This project aims to explore and analyze transactional data from a fictional cof
 
 ## 🧠 Results
 
+![Dashboard Preview](./Coffee%20Shop%20Sales%20Dashboard.png)
 
 ...
 
